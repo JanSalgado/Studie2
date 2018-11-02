@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: MT_UnlitSprit
+  m_Shader: {fileID: 4800000, guid: 6ced4cada6c9d884ba0cbb16afb8b06d, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA _NODE_4348_ON _NODE_9118_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Cubemap:
+        m_Texture: {fileID: 8900000, guid: 0f372a910c622224e92426e9e81a0ff9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 1, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: c267be78b81fb48cc85b150384dcf49c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FlowMapMask:
+        m_Texture: {fileID: 2800000, guid: 238e26c4c3305614ba1e1c33fe2bb289, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 9ebac6ca66d7869479118d67760d7a18, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex1:
+        m_Texture: {fileID: 2800000, guid: ae17e5c4b235f464ea3ef44e204b1e56, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 83ef95c6907e9ed48b227f1bc7e2bce4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskAREmissiveGDiffuseBSpecular:
+        m_Texture: {fileID: 2800000, guid: a26096ddf1b317347bf3c6f00d3b912b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskB:
+        m_Texture: {fileID: 2800000, guid: 83ef95c6907e9ed48b227f1bc7e2bce4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskBRStarGRimLightBSpecAniso:
+        m_Texture: {fileID: 2800000, guid: 238e26c4c3305614ba1e1c33fe2bb289, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 9c59993133c16c2458a09b0448656954, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 78dc245e4e51c044e9e0556239ef93f1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _node_8700v:
+        m_Texture: {fileID: 8900000, guid: a8263653a6ca4ac4ebec350eaf2afbd5, type: 3}
+        m_Scale: {x: 0, y: 0}
+        m_Offset: {x: 1, y: 0}
+    m_Floats:
+    - _Background: 1
+    - _CUbemapMipmap: 0.18
+    - _Cutoff: 0.5
+    - _EmissionIntensity: 2.79
+    - _Exp: 280
+    - _Frame: 7.17
+    - _Frameintensity: 12.92
+    - _Gloosstenght: -0.44
+    - _Gloss: 1
+    - _Gloss_copy: 0.52
+    - _HighlightIntensity: 7.4
+    - _HighlightSharpennes: 10
+    - _HightGloss: 1
+    - _MoonLightEmission: 0.3
+    - _MoonLightIntensity: 0.26
+    - _OrbEmissionIntensity: 1
+    - _Reflexitonintensity: 1
+    - _Reflexiveintensity: 1
+    - _RimLightIntensity: 4.91
+    - _Rimlightintensity: 8.45
+    - _SpecularAnisotropicIntensity: 3.49
+    - _SpecularIntensity: 15.1
+    - _Specularrange: 0
+    - _StarIntensity: 0.661
+    - _StarSpeed: 0
+    - _StarsIntensity: 0.92
+    - _Step: 0.2905985
+    - _TwinkleStarSpeed: 0.161
+    - _Witch: 7.2
+    - _frenel: 1.06
+    - _node_1794: 0.18
+    - _node_3302: 0.21
+    - _node_3741: 1
+    - _node_3866: 9.46
+    - _node_4188: 0.72
+    - _node_4188_copy: 1
+    - _node_4348: 1
+    - _node_4561: 1
+    - _node_4789: 2.52
+    - _node_4932_copy: 0.94
+    - _node_6614: 0.2905985
+    - _node_8957: 0.72
+    - _node_9118: 1
+    - _node_951: 1
+    - _node_9665: 0
+    - _posterize: 3.72
+    m_Colors:
+    - _AmbientLight: {r: 0.5147059, g: 0.5147059, b: 0.5147059, a: 1}
+    - _AmbientLightBack: {r: 0.66176474, g: 0.66176474, b: 0.66176474, a: 1}
+    - _BackColor: {r: 0.63235295, g: 0.63235295, b: 0.63235295, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _FrontColor: {r: 0.5661765, g: 0.5661765, b: 0.5661765, a: 1}
+    - _FrontambientLight: {r: 0.72794116, g: 0.72794116, b: 0.72794116, a: 1}
+    - _OrbColor: {r: 1, g: 0.2647059, b: 0.5841784, a: 1}
+    - _OrbEmissionColor: {r: 0.6655681, g: 0, b: 0.77205884, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _Texcolor: {r: 1, g: 1, b: 1, a: 1}
+    - _node_6450: {r: 1, g: 1, b: 1, a: 1}
